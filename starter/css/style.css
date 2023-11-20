@@ -1,0 +1,110 @@
+/* styles */
+* *::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  /*...1rem=10px...*/
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Raleway";
+  padding: 3rem;
+  color: #777;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10rem 0;
+}
+
+.header__title--main,
+.header__title--sub {
+  display: block;
+  text-align: center;
+}
+
+.header__title {
+  margin-right: 3rem;
+}
+
+.header__title--main {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  text-transform: capitalize;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  animation-name: fadeInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.header__title--sub {
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  animation-name: fadeInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.header__images {
+  position: relative;
+}
+
+.header__images--darkblob {
+  height: 400px;
+  opacity: 0.7;
+}
+
+.header__images--blueblob {
+  height: 400px;
+  position: absolute;
+  top: 20%;
+  left: 47%;
+  transform: translateX(-3%);
+}
+
+.header__images--simcard {
+  position: absolute;
+  top: 25%;
+  left: 47%;
+  transform: translateX(-19%);
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  80% {
+    opacity: 1;
+    transform: translateX(-3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0rem);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  80% {
+    opacity: 1;
+    transform: translateX(3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0rem);
+  }
+}
