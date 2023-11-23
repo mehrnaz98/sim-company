@@ -23,60 +23,58 @@ body {
   align-items: center;
   justify-content: center;
   padding: 10rem 0;
-}
 
-.header__title--main,
-.header__title--sub {
-  display: block;
-  text-align: center;
-}
+  &__title {
+    margin-right: 3rem;
+    text-transform: uppercase;
+    text-align: center;
 
-.header__title {
-  margin-right: 3rem;
-}
+    &--main {
+      display: block;
+      font-size: 3rem;
+      padding-bottom: 2rem;
+      text-transform: capitalize;
+      word-spacing: 2px;
+      letter-spacing: 1px;
+      animation-name: fadeInLeft;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+    }
 
-.header__title--main {
-  font-size: 3rem;
-  padding-bottom: 2rem;
-  text-transform: capitalize;
-  word-spacing: 2px;
-  letter-spacing: 1px;
-  animation-name: fadeInLeft;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
-}
+    &--sub {
+      display: block;
+      font-size: 2rem;
+      font-weight: 400;
+      text-transform: capitalize;
+      animation-name: fadeInRight;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+    }
+  }
 
-.header__title--sub {
-  font-size: 2rem;
-  font-weight: 400;
-  text-transform: capitalize;
-  animation-name: fadeInRight;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
-}
+  &__images {
+    position: relative;
 
-.header__images {
-  position: relative;
-}
+    &--darkblob {
+      height: 400px;
+      opacity: 0.7;
+    }
 
-.header__images--darkblob {
-  height: 400px;
-  opacity: 0.7;
-}
+    &--blueblob {
+      height: 400px;
+      position: absolute;
+      top: 20%;
+      left: 47%;
+      transform: translateX(-3%);
+    }
 
-.header__images--blueblob {
-  height: 400px;
-  position: absolute;
-  top: 20%;
-  left: 47%;
-  transform: translateX(-3%);
-}
-
-.header__images--simcard {
-  position: absolute;
-  top: 25%;
-  left: 47%;
-  transform: translateX(-19%);
+    &--simcard {
+      position: absolute;
+      top: 25%;
+      left: 47%;
+      transform: translateX(-19%);
+    }
+  }
 }
 
 @keyframes fadeInLeft {
