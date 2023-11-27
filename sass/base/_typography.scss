@@ -1,0 +1,21 @@
+.heading__primary {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+  background-image: linear-gradient(
+    to right,
+    $primary-color,
+    $primary-color-light
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+  transition: all 100ms ease-in-out;
+
+  &:hover {
+    transform: rotate(-1deg) skew(15deg);
+    text-shadow: 5px 6px 4px rgba($black-color, 0.5);
+  }
+}
