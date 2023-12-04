@@ -1,0 +1,12 @@
+.about {
+  display: flex;
+  justify-content: center;
+  &__card {
+    &--img {
+      height: 30rem;
+      width: 30rem;
+    }
+    &--title {
+    }
+  }
+}

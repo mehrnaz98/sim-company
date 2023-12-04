@@ -93,6 +93,13 @@ body {
     left: 47%;
     transform: translateX(-19%); }
 
+.about {
+  display: flex;
+  justify-content: center; }
+  .about__card--img {
+    height: 30rem;
+    width: 30rem; }
+
 /* pages */
 body {
   padding: 3rem;
@@ -103,3 +110,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 10rem 0; }
+
+.section-about {
+  padding: 10rem 0;
+  text-align: center; }
