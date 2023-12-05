@@ -8,16 +8,18 @@
     height: 50rem;
     transform: skewX(15deg);
     position: relative;
+    transition: all 1000ms ease-in-out;
     &--img {
       height: 100%;
       width: 100%;
       object-fit: cover;
       filter: grayscale(1);
+      transition: all 1000ms ease-in-out;
     }
     &--title {
       color: $black-color;
       background-color: rgba($white-color, 0.75);
-      padding: 0 0.5rem;
+      padding: 1 0rem;
       transform: rotate(-90deg);
       transform-origin: 0% 0%;
       min-width: 100%;
@@ -25,8 +27,14 @@
       position: absolute;
       bottom: 0;
       left: 0;
-      font-size: 2rem;
+      font-size: 3rem;
       white-space: nowrap;
+    }
+    &:hover {
+      flex-grow: 2;
+      .about__card--img {
+        filter: grayscale(0);
+      }
     }
   }
 }
