@@ -96,9 +96,11 @@ body {
 .about {
   display: flex;
   justify-content: center; }
-  .about__card--img {
-    height: 30rem;
-    width: 30rem; }
+  .about__card {
+    height: 50rem; }
+    .about__card--img {
+      height: 100%;
+      width: 30rem; }
 
 /* pages */
 body {

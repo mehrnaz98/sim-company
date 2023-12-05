@@ -2,8 +2,9 @@
   display: flex;
   justify-content: center;
   &__card {
+    height: 50rem;
     &--img {
-      height: 30rem;
+      height: 100%;
       width: 30rem;
     }
     &--title {
