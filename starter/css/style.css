@@ -121,11 +121,16 @@ body {
       bottom: 0;
       left: 0;
       font-size: 3rem;
-      white-space: nowrap; }
+      white-space: nowrap;
+      transition: all 1000ms ease-in-out; }
     .about__card:hover {
       flex-grow: 2; }
       .about__card:hover .about__card--img {
         filter: grayscale(0); }
+      .about__card:hover .about__card--title {
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.75);
+        transform: rotate(0) skew(0); }
 
 /* pages */
 body {

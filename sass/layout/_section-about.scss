@@ -29,11 +29,17 @@
       left: 0;
       font-size: 3rem;
       white-space: nowrap;
+      transition: all 1000ms ease-in-out;
     }
     &:hover {
       flex-grow: 2;
       .about__card--img {
         filter: grayscale(0);
+      }
+      .about__card--title {
+        color: $white-color;
+        background-color: rgba($black-color, 0.75);
+        transform: rotate(0) skew(0);
       }
     }
   }
