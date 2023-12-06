@@ -132,6 +132,16 @@ body {
         background-color: rgba(0, 0, 0, 0.75);
         transform: rotate(0) skew(0); }
 
+.row {
+  max-width: 114rem;
+  margin: 0 auto;
+  margin-bottom: 8rem;
+  background-color: #777;
+  font-size: 2rem;
+  color: blue; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+
 /* pages */
 body {
   padding: 3rem;
