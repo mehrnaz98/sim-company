@@ -51,6 +51,27 @@ body {
     transform: rotate(-1deg) skew(15deg);
     text-shadow: 5px 6px 4px rgba(0, 0, 0, 0.5); }
 
+.u-bkg-white {
+  background-color: #fff; }
+
+.u-bkg-black {
+  background-color: #000; }
+
+.u-vertical-padding-lg {
+  padding-top: 20rem;
+  padding-bottom: 20rem; }
+
+.u-vertical-padding-md {
+  padding-top: 10rem;
+  padding-bottom: 10rem; }
+
+.u-vertical-padding-sm {
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+
+.u-center-text {
+  text-align: center; }
+
 /* component */
 /* Layout */
 .header__title {
@@ -170,13 +191,4 @@ body {
 .header {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 10rem 0; }
-
-.section-about {
-  padding: 10rem 0;
-  text-align: center; }
-
-.section-specification-cards {
-  padding: 10rem 0;
-  text-align: center; }
+  justify-content: center; }
