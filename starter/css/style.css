@@ -192,3 +192,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center; }
+
+.section-specification-cards {
+  background-image: url("../../starter/img/simcard.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  width: 100%; }
