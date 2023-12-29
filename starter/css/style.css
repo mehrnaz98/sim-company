@@ -84,7 +84,8 @@ body {
   opacity: 80%; }
   .specification-card:hover {
     transform: scale(1.05);
-    background-color: red; }
+    background-color: black;
+    color: white; }
   .specification-card__title {
     font-size: 2rem;
     font-weight: 700;
