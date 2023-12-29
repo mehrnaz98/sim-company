@@ -1,0 +1,19 @@
+.specification-card {
+  background-color: $white-color;
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  border-radius: 0.3rem;
+  box-shadow: 0 4.5px 2px 2px rgba($black-color, 0.15);
+
+  &__title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__icon {
+  }
+
+  &__list {
+  }
+}
