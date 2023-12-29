@@ -78,7 +78,8 @@ body {
   font-size: 1.5rem;
   padding: 2.5rem;
   border-radius: 0.3rem;
-  box-shadow: 0 4.5px 2px 2px rgba(0, 0, 0, 0.15); }
+  box-shadow: 0 4.5px 2px 2px rgba(0, 0, 0, 0.15);
+  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 21%, 29% 0%); }
   .specification-card__title {
     font-size: 2rem;
     font-weight: 700;
@@ -175,9 +176,7 @@ body {
 .row {
   max-width: 114rem;
   margin: 0 auto;
-  background-color: #777;
-  font-size: 2rem;
-  color: blue; }
+  background-color: #777; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
   .row .row::after {
@@ -185,8 +184,7 @@ body {
     content: "";
     display: table; }
   .row [class^="col-"] {
-    float: left;
-    background-color: red; }
+    float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
   .row .col-1-of-2 {
@@ -217,6 +215,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 25%, 20% 0%);
+  clip-path: polygon(18% 0px, 100% 0, 100% 86%, 0px 86%, 0 26%);
   height: 400px;
   width: 100%; }
