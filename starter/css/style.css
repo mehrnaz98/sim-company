@@ -73,9 +73,29 @@ body {
   text-align: center; }
 
 /* component */
-.plan-card__view {
+.plan-card {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
   height: 50rem;
-  background-color: red; }
+  position: relative; }
+  .plan-card__view {
+    transition: all 0.8s ease-in-out;
+    height: 50rem;
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden; }
+    .plan-card__view--front {
+      background-color: red; }
+    .plan-card__view--back {
+      background-color: yellow;
+      transform: rotateY(180deg); }
+  .plan-card:hover .plan-card__view--front {
+    transform: rotateY(180deg); }
+  .plan-card:hover .plan-card__view--back {
+    transform: rotateY(0); }
 
 .specification-card {
   background-color: #fff;
