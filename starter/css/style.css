@@ -73,6 +73,10 @@ body {
   text-align: center; }
 
 /* component */
+.plan-card__view {
+  height: 50rem;
+  background-color: red; }
+
 .specification-card {
   background-color: #fff;
   font-size: 1.5rem;
