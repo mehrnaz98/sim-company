@@ -13,14 +13,36 @@
     left: 0;
     width: 100%;
     backface-visibility: hidden;
+    border-radius: 7px;
+    box-shadow: 0px 1.5px 3px 2px rgba($black-color, 0.32);
 
     &--front {
-      background-color: red;
     }
 
     &--back {
-      background-color: yellow;
       transform: rotateY(180deg);
+
+      &-1 {
+        background-image: linear-gradient(
+          to top left,
+          $color-purple-dark,
+          $color-purple-light
+        );
+      }
+      &-2 {
+        background-image: linear-gradient(
+          to top left,
+          $color-orange-dark,
+          $color-orange-light
+        );
+      }
+      &-3 {
+        background-image: linear-gradient(
+          to top left,
+          $color-green-dark,
+          $color-green-light
+        );
+      }
     }
   }
 
