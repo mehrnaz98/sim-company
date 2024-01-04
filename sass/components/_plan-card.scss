@@ -17,6 +17,7 @@
     box-shadow: 0px 1.5px 3px 2px rgba($black-color, 0.32);
 
     &--front {
+      background-color: white;
     }
 
     &--back {
@@ -51,5 +52,53 @@
   }
   &:hover &__view--back {
     transform: rotateY(0);
+  }
+
+  /* front style */
+
+  &__picture {
+    height: 23rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    clip-path: polygon(100% 0, 100% 89%, 51% 89%, 28% 99%, 0 100%, 0 0);
+    &--1 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba($primary-color, 0.2),
+          rgba($primary-color, 0.2)
+        ),
+        url("../../starter/img/Purple_SIM.png");
+    }
+    &--2 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba($primary-color, 0.2),
+          rgba($primary-color, 0.2)
+        ),
+        url("../../starter/img/blue_SIM.png");
+    }
+    &--3 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba($primary-color, 0.2),
+          rgba($primary-color, 0.2)
+        ),
+        url("../../starter/img/pink_SIM.png");
+    }
+  }
+  &__title {
+    background-color: rgba($color-purple-dark, 0.7);
+    color: $white-color;
+    position: absolute;
+    top: 12rem;
+    right: 4rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.4rem;
+    transform: rotate3d(1, 0, 6, -54deg);
+  }
+  &__details {
   }
 }
