@@ -78,7 +78,8 @@ body {
   -moz-perspective: 150rem;
   height: 50rem;
   position: relative;
-  /* front style */ }
+  /* front style */
+  /* back styles */ }
   .plan-card__view {
     transition: all 0.8s ease-in-out;
     height: 50rem;
@@ -127,6 +128,18 @@ body {
     text-transform: uppercase;
     padding: 0.6rem;
     transform: rotate3d(1, 0, 6, -54deg); }
+  .plan-card__details {
+    padding-top: 1rem;
+    padding-left: 0;
+    list-style: none;
+    font-size: 1.5rem;
+    line-height: 2.9rem;
+    font-weight: 500; }
+  .plan-card--deals {
+    color: #fff;
+    padding: 5rem;
+    line-height: 3.3rem;
+    font-weight: 500; }
 
 .specification-card {
   background-color: #fff;
@@ -284,3 +297,6 @@ body {
   clip-path: polygon(18% 0px, 100% 0, 100% 86%, 0px 86%, 0 26%);
   height: 400px;
   width: 100%; }
+
+.section-plan-cards {
+  margin-top: -10rem; }
