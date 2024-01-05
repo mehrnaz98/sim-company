@@ -325,3 +325,7 @@ body {
 
 .section-feedback {
   margin-top: -20rem; }
+
+.section-form__bkg-video {
+  height: 100%;
+  width: 100%; }

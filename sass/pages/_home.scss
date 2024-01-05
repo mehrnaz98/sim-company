@@ -34,3 +34,10 @@ body {
 .section-feedback {
   margin-top: -20rem;
 }
+
+.section-form {
+  &__bkg-video {
+    height: 100%;
+    width: 100%;
+  }
+}
