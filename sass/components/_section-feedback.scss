@@ -1,0 +1,12 @@
+.feedback-card {
+  text-align: left;
+  background-color: $white-color;
+  border-radius: 0.7rem;
+  box-shadow: 0.1rm 0.4rem 1.2rem rgba($black-color, 0.6);
+  &__header {
+    &--image {
+    }
+    &--title {
+    }
+  }
+}
