@@ -73,41 +73,43 @@ body {
   text-align: center; }
 
 /* component */
-.form .form__input--text:focus ~ label, .form .form__input--text:valid ~ label {
-  color: #6a1b9a;
-  top: -2.5rem;
-  transform: scale(0.9);
-  transition: all 200ms ease-in-out; }
-
-.form__input {
-  position: relative;
-  font-size: 1.4rem;
-  text-transform: capitalize;
-  width: 40%; }
-  .form__input--text {
-    padding: 1rem 1rem 2rem 1rem;
-    border: none;
-    background: transparent; }
-    .form__input--text ~ span {
-      display: block;
-      width: 0;
-      height: 3px;
-      background-color: #6a1b9a;
+.form-container {
+  width: 50%;
+  padding: 5rem; }
+  .form-container .form-container__input--text:focus ~ label, .form-container .form-container__input--text:valid ~ label {
+    color: #6a1b9a;
+    top: -2.5rem;
+    transform: scale(0.9);
+    transition: all 200ms ease-in-out; }
+  .form-container__input {
+    position: relative;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    width: 40%; }
+    .form-container__input--text {
+      padding: 1rem 1rem 3rem 1rem;
+      border: none;
+      background: transparent; }
+      .form-container__input--text ~ span {
+        display: block;
+        width: 0;
+        height: 3px;
+        background-color: #6a1b9a;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: all 200ms ease-in-out; }
+      .form-container__input--text:focus {
+        outline: 0; }
+        .form-container__input--text:focus ~ span {
+          width: 100%; }
+    .form-container__input--label {
+      color: #2c2c2c;
       position: absolute;
-      bottom: 0;
+      padding: 1rem;
+      top: 0;
       left: 0;
       transition: all 200ms ease-in-out; }
-    .form__input--text:focus {
-      outline: 0; }
-      .form__input--text:focus ~ span {
-        width: 100%; }
-  .form__input--label {
-    color: #2c2c2c;
-    position: absolute;
-    padding: 1rem;
-    top: 0;
-    left: 0;
-    transition: all 200ms ease-in-out; }
 
 .feedback-card {
   text-align: left;

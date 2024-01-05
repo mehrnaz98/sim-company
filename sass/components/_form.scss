@@ -1,4 +1,6 @@
-.form {
+.form-container {
+  width: 50%;
+  padding: 5rem;
   %label-up {
     color: $color-purple-dark;
     top: -2.5rem;
@@ -7,11 +9,11 @@
   }
   &__input {
     position: relative;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     text-transform: capitalize;
     width: 40%;
     &--text {
-      padding: 1rem 1rem 2rem 1rem;
+      padding: 1rem 1rem 3rem 1rem;
       border: none;
       background: transparent;
 
