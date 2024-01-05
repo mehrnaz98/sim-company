@@ -73,13 +73,13 @@ body {
   text-align: center; }
 
 .u-mb-lg {
-  margin-bottom: 15; }
+  margin-top: 15rem; }
 
 .u-mb-md {
-  margin-bottom: 10; }
+  margin-top: 10rem; }
 
 .u-mb-sm {
-  margin-bottom: 5; }
+  margin-top: 5rem; }
 
 /* component */
 .form-container {
