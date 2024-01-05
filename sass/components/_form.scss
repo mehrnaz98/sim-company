@@ -1,9 +1,15 @@
 .form {
+  %label-up {
+    color: $color-purple-dark;
+    top: -2.5rem;
+    transform: scale(0.9);
+    transition: all 200ms ease-in-out;
+  }
   &__input {
     position: relative;
     font-size: 1.4rem;
     text-transform: capitalize;
-    width: 50%;
+    width: 40%;
     &--text {
       padding: 1rem 1rem 2rem 1rem;
       border: none;
