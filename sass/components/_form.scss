@@ -1,0 +1,15 @@
+.form {
+  __input {
+    &--text {
+      padding: 1rem 1rem 2rem 1rem;
+      border: none;
+      background: transparent;
+      font-size: 1.4rem;
+      :focus {
+        outline: 0;
+      }
+    }
+    &--label {
+    }
+  }
+}
