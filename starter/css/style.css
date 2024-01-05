@@ -76,13 +76,25 @@ body {
 .form__input {
   position: relative;
   font-size: 1.4rem;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  width: 50%; }
   .form__input--text {
     padding: 1rem 1rem 2rem 1rem;
     border: none;
     background: transparent; }
-    .form__input--text :focus {
+    .form__input--text ~ span {
+      display: block;
+      width: 0;
+      height: 3px;
+      background-color: #6a1b9a;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transition: all 200ms ease-in-out; }
+    .form__input--text:focus {
       outline: 0; }
+      .form__input--text:focus ~ span {
+        width: 100%; }
   .form__input--label {
     color: #2c2c2c;
     position: absolute;

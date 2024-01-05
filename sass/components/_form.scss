@@ -3,13 +3,29 @@
     position: relative;
     font-size: 1.4rem;
     text-transform: capitalize;
+    width: 50%;
     &--text {
       padding: 1rem 1rem 2rem 1rem;
       border: none;
       background: transparent;
 
-      :focus {
+      ~ span {
+        display: block;
+        width: 0;
+        height: 3px;
+        background-color: $color-purple-dark;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: all 200ms ease-in-out;
+      }
+
+      &:focus {
         outline: 0;
+
+        ~ span {
+          width: 100%;
+        }
       }
     }
     &--label {
