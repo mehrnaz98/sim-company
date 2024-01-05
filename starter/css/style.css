@@ -73,6 +73,28 @@ body {
   text-align: center; }
 
 /* component */
+.feedback-card {
+  text-align: left;
+  background-color: #fff;
+  border-radius: 0.7rem;
+  box-shadow: 0.1rem 0.4rem 1.2rem rgba(0, 0, 0, 0.6);
+  padding: 2rem; }
+  .feedback-card__header {
+    display: flex;
+    justify-content: left;
+    align-items: center; }
+    .feedback-card__header--image {
+      height: 90px;
+      width: 90px;
+      border-radius: 100px;
+      margin-right: 2rem; }
+    .feedback-card__header--title {
+      font-size: 1.8rem; }
+  .feedback-card__paragraph {
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+    line-height: 2.2rem; }
+
 .plan-card {
   perspective: 150rem;
   -moz-perspective: 150rem;
@@ -140,12 +162,6 @@ body {
     padding: 5rem;
     line-height: 3.3rem;
     font-weight: 500; }
-
-.feedback-card {
-  text-align: left;
-  background-color: #fff;
-  border-radius: 0.7rem;
-  box-shadow: 0.1rm 0.4rem 1.2rem rgba(0, 0, 0, 0.6); }
 
 .specification-card {
   background-color: #fff;
@@ -305,4 +321,7 @@ body {
   width: 100%; }
 
 .section-plan-cards {
-  margin-top: -10rem; }
+  margin-top: -18rem; }
+
+.section-feedback {
+  margin-top: -20rem; }
