@@ -73,6 +73,12 @@ body {
   text-align: center; }
 
 /* component */
+.form .form__input--text:focus ~ label {
+  color: #6a1b9a;
+  top: -2.5rem;
+  transform: scale(0.9);
+  transition: all 200ms ease-in-out; }
+
 .form__input {
   position: relative;
   font-size: 1.4rem;

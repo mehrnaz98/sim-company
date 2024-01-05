@@ -28,6 +28,9 @@
 
       &:focus {
         outline: 0;
+        ~ label {
+          @extend %label-up;
+        }
 
         ~ span {
           width: 100%;
