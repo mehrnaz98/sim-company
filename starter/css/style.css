@@ -51,12 +51,14 @@ body {
     transform: rotate(-1deg) skew(15deg);
     text-shadow: 5px 6px 4px rgba(0, 0, 0, 0.5); }
 
+/*background colors*/
 .u-bkg-white {
   background-color: #fff; }
 
 .u-bkg-black {
   background-color: #000; }
 
+/*padding*/
 .u-vertical-padding-lg {
   padding-top: 20rem;
   padding-bottom: 20rem; }
@@ -69,9 +71,11 @@ body {
   padding-top: 0.8rem;
   padding-bottom: 0.8rem; }
 
+/*text alignment*/
 .u-center-text {
   text-align: center; }
 
+/*margin*/
 .u-mt-lg {
   margin-top: 15rem; }
 
@@ -80,6 +84,15 @@ body {
 
 .u-mt-sm {
   margin-top: 5rem; }
+
+.u-mb-lg {
+  margin-bottom: 15rem; }
+
+.u-mb-md {
+  margin-bottom: 10rem; }
+
+.u-mb-sm {
+  margin-bottom: 2rem; }
 
 /* component */
 .form-container {
