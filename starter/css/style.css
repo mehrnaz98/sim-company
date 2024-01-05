@@ -73,7 +73,7 @@ body {
   text-align: center; }
 
 /* component */
-.form .form__input--text:focus ~ label {
+.form .form__input--text:focus ~ label, .form .form__input--text:valid ~ label {
   color: #6a1b9a;
   top: -2.5rem;
   transform: scale(0.9);
