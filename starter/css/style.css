@@ -342,4 +342,5 @@ body {
   position: absolute;
   top: 423rem;
   left: 50%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+  opacity: 80%; }
