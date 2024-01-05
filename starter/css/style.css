@@ -73,6 +73,24 @@ body {
   text-align: center; }
 
 /* component */
+.form__input {
+  position: relative;
+  font-size: 1.4rem;
+  text-transform: capitalize; }
+  .form__input--text {
+    padding: 1rem 1rem 2rem 1rem;
+    border: none;
+    background: transparent; }
+    .form__input--text :focus {
+      outline: 0; }
+  .form__input--label {
+    color: #2c2c2c;
+    position: absolute;
+    padding: 1rem;
+    top: 0;
+    left: 0;
+    transition: all 200ms ease-in-out; }
+
 .feedback-card {
   text-align: left;
   background-color: #fff;
