@@ -7,13 +7,14 @@
 @import "./base/typography";
 @import "./base/utilities";
 /* component */
+@import "./components/footer";
 @import "./components/form";
 @import "./components/section-feedback";
 @import "./components/plan-card";
+@import "./components/section-about";
 @import "./components/specification-card";
 /* Layout */
 @import "./layout/header";
-@import "./layout/section-about";
 @import "./layout/grid";
 /* pages */
 @import "./pages/home";
