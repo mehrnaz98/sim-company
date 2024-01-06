@@ -294,6 +294,33 @@ body {
     font-size: 1.7; }
 
 /* Layout */
+.footer {
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 3rem;
+  font-weight: 500; }
+  .footer__nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 2rem;
+    padding-bottom: 3rem; }
+    .footer__nav li a {
+      color: #fff;
+      padding: 2rem; }
+  .footer__policy {
+    border-right: 1px solid #fff; }
+    .footer__policy--title {
+      padding-bottom: 2rem;
+      text-align: left; }
+    .footer__policy--paragraph {
+      line-height: 3rem;
+      text-align: left; }
+  .footer__address--title {
+    text-transform: capitalize;
+    padding-bottom: 3rem;
+    text-align: center; }
+
 .header__title {
   margin-right: 3rem;
   text-transform: uppercase;
@@ -404,3 +431,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 80%; }
+
+.footer {
+  padding: 80px 100px 450px 0px;
+  background-color: #3d3d3d;
+  color: white; }

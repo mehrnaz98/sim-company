@@ -1,0 +1,37 @@
+.footer {
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 3rem;
+  font-weight: 500;
+  &__nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 2rem;
+    padding-bottom: 3rem;
+
+    li a {
+      color: $white-color;
+      padding: 2rem;
+    }
+  }
+  &__policy {
+    border-right: 1px solid $white-color;
+    &--title {
+      padding-bottom: 2rem;
+      text-align: left;
+    }
+    &--paragraph {
+      line-height: 3rem;
+      text-align: left;
+    }
+  }
+
+  &__address {
+    &--title {
+      text-transform: capitalize;
+      padding-bottom: 3rem;
+      text-align: center;
+    }
+  }
+}
