@@ -315,11 +315,17 @@ body {
       text-align: left; }
     .footer__policy--paragraph {
       line-height: 3rem;
-      text-align: left; }
+      text-align: left;
+      text-align: justify;
+      padding-right: 5rem; }
   .footer__address--title {
     text-transform: capitalize;
     padding-bottom: 3rem;
     text-align: center; }
+  .footer__copyright {
+    position: absolute;
+    bottom: -4630px;
+    left: 40%; }
 
 .header__title {
   margin-right: 3rem;

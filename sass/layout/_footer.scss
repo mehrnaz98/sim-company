@@ -24,6 +24,8 @@
     &--paragraph {
       line-height: 3rem;
       text-align: left;
+      text-align: justify;
+      padding-right: 5rem;
     }
   }
 
@@ -33,5 +35,11 @@
       padding-bottom: 3rem;
       text-align: center;
     }
+  }
+
+  &__copyright {
+    position: absolute;
+    bottom: -4630px;
+    left: 40%;
   }
 }
