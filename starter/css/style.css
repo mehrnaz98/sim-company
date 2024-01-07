@@ -95,6 +95,25 @@ body {
   margin-bottom: 2rem; }
 
 /* component */
+.btn-flip {
+  width: 168px;
+  height: 48px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  perspective: 150rem; }
+  .btn-flip__link {
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    transform: translateZ(-25px);
+    transition: transform 0.3s;
+    cursor: pointer; }
+
 .form-container {
   width: 50%;
   padding: 5rem; }
