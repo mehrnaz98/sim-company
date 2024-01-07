@@ -127,8 +127,30 @@ body {
   .btn-flip__back {
     background-color: rgba(230, 81, 0, 0);
     color: rgba(61, 61, 61, 0);
-    transform: rotatex(0) translateZ(24px);
+    transform: rotateX(90deg) translateZ(24px);
     overflow: hidden; }
+  .btn-flip__back:after {
+    content: "";
+    position: absolute;
+    top: -32%;
+    left: -10%;
+    width: 120%;
+    height: 50%;
+    background-color: #e65100;
+    transform: rotate(8deg);
+    transform: all 0.5s ease;
+    transition-delay: 0.15s; }
+  .btn-flip__link:hover {
+    transform: translateZ(-24px) rotateX(-90deg); }
+  .btn-flip__link:hover .btn-flip__front {
+    background-color: #000;
+    transition: all 0.8s ease; }
+  .btn-flip__link:hover .btn-flip__back {
+    color: #fff;
+    transition: all 0.4s linear;
+    background-color: #1c2b97; }
+  .btn-flip__link:hover .btn-flip__back:after {
+    transform: rotate(6deg) translate(100px, -18px); }
 
 .form-container {
   width: 50%;

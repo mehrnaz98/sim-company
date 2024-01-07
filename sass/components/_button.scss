@@ -37,7 +37,36 @@
   &__back {
     background-color: rgba($color-orange-dark, 0);
     color: rgba($gray-color-dark, 0);
-    transform: rotatex(0) translateZ(24px);
+    transform: rotateX(90deg) translateZ(24px);
     overflow: hidden;
+  }
+
+  &__back:after {
+    content: "";
+    position: absolute;
+    top: -32%;
+    left: -10%;
+    width: 120%;
+    height: 50%;
+    background-color: $color-orange-dark;
+    transform: rotate(8deg);
+    transform: all 0.5s ease;
+    transition-delay: 0.15s;
+  }
+
+  &__link:hover {
+    transform: translateZ(-24px) rotateX(-90deg);
+  }
+  &__link:hover &__front {
+    background-color: $black-color;
+    transition: all 0.8s ease;
+  }
+  &__link:hover &__back {
+    color: $white-color;
+    transition: all 0.4s linear;
+    background-color: $primary-color;
+  }
+  &__link:hover &__back:after {
+    transform: rotate(6deg) translate(100px, -18px);
   }
 }
