@@ -110,6 +110,7 @@ body {
     width: 100%;
     position: absolute;
     left: 0%;
+    transform-style: preserve-3d;
     transform: translateZ(-25px);
     transition: transform 0.3s;
     cursor: pointer; }
