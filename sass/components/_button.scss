@@ -6,7 +6,7 @@
   perspective: 150rem;
 
   &__link {
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
@@ -70,4 +70,10 @@
   &__link:hover &__back:after {
     transform: rotate(6deg) translate(100px, -18px);
   }
+}
+
+.planCardButton {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
 }
