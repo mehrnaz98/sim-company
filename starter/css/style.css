@@ -398,6 +398,12 @@ body {
   .navigation__icon::after {
     top: -0.8rem; }
 
+.navigation__btn:hover .navigation__icon::before {
+  top: 1rem; }
+
+.navigation__btn:hover .navigation__icon::after {
+  top: -1rem; }
+
 .footer {
   text-align: center;
   font-size: 1.6rem;

@@ -45,4 +45,10 @@
       top: -0.8rem;
     }
   }
+  &__btn:hover &__icon::before {
+    top: 1rem;
+  }
+  &__btn:hover &__icon::after {
+    top: -1rem;
+  }
 }
