@@ -105,4 +105,8 @@
       animation: shine 2s infinite;
     }
   }
+  //check if checkbox is checked
+  &__checkbox:checked ~ &__background {
+    width: 100%;
+  }
 }

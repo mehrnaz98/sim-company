@@ -448,6 +448,9 @@ body {
   -webkit-mask-size: 200%;
   animation: shine 2s infinite; }
 
+.navigation__checkbox:checked ~ .navigation__background {
+  width: 100%; }
+
 .footer {
   text-align: center;
   font-size: 1.6rem;
