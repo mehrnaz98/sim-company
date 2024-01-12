@@ -463,6 +463,11 @@ body {
 .navigation__checkbox:checked ~ .navigation__background {
   width: 100%; }
 
+.navigation__checkbox:checked ~ .navigation__nav {
+  opacity: 1;
+  width: 100%;
+  z-index: 1500; }
+
 .footer {
   text-align: center;
   font-size: 1.6rem;
