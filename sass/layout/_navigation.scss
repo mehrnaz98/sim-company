@@ -64,6 +64,18 @@
     transition: width 0.8s cubic-bezier(0.86, 0, 0.07, 1);
   }
 
+  &__nav {
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 0;
+    opacity: 0;
+    transition: opacity 0.8s cubic-bezier(0.68, -0.55, 0.256, 1.55);
+    transition-delay: 0.8s;
+  }
+
   &__list {
     position: absolute;
     top: 50%;
@@ -109,5 +121,7 @@
   //check if checkbox is checked
   &__checkbox:checked ~ &__background {
     width: 100%;
+  }
+  &__checkbox:checked ~ &__nav {
   }
 }
