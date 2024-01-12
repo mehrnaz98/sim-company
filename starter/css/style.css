@@ -414,6 +414,12 @@ body {
   z-index: 1000;
   transition: width 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
 
+.navigation__list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
 .footer {
   text-align: center;
   font-size: 1.6rem;
