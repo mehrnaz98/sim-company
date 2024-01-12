@@ -468,6 +468,17 @@ body {
   width: 100%;
   z-index: 1500; }
 
+.navigation__checkbox:checked + .navigation__btn .navigation__icon {
+  background: transparent; }
+
+.navigation__checkbox:checked + .navigation__btn .navigation__icon::after {
+  top: 0;
+  transform: rotate(135deg); }
+
+.navigation__checkbox:checked + .navigation__btn .navigation__icon::before {
+  top: 0;
+  transform: rotate(-135deg); }
+
 .footer {
   text-align: center;
   font-size: 1.6rem;

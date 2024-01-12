@@ -127,4 +127,15 @@
     width: 100%;
     z-index: 1500;
   }
+  &__checkbox:checked + &__btn &__icon {
+    background: transparent;
+  }
+  &__checkbox:checked + &__btn &__icon::after {
+    top: 0;
+    transform: rotate(135deg);
+  }
+  &__checkbox:checked + &__btn &__icon::before {
+    top: 0;
+    transform: rotate(-135deg);
+  }
 }
