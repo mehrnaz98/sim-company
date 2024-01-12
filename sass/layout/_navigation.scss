@@ -85,7 +85,8 @@
       padding: 2rem;
     }
 
-    &:hover &:active {
+    &:hover,
+    &:active {
       border: 3px solid $white-color;
       mask-image: linear-gradient(
         -75deg,
