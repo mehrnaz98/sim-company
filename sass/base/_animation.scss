@@ -27,3 +27,14 @@
     transform: translateX(0rem);
   }
 }
+
+@keyframes shine {
+  from {
+    mask-position: 150%;
+    -webkit-mask-position: 150%;
+  }
+  to {
+    mask-position: -50%;
+    -webkit-mask-position: -50%;
+  }
+}

@@ -36,6 +36,14 @@ body {
     opacity: 1;
     transform: translateX(0rem); } }
 
+@keyframes shine {
+  from {
+    mask-position: 150%;
+    -webkit-mask-position: 150%; }
+  to {
+    mask-position: -50%;
+    -webkit-mask-position: -50%; } }
+
 .heading__primary {
   font-size: 3rem;
   font-weight: 700;
