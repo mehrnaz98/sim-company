@@ -93,6 +93,12 @@
         $black-color 50%,
         rgba($black-color, 0.6) 70%
       );
+      -webkit-mask-image: linear-gradient(
+        -75deg,
+        rgba($black-color, 0.6) 30%,
+        $black-color 50%,
+        rgba($black-color, 0.6) 70%
+      );
     }
   }
 }
