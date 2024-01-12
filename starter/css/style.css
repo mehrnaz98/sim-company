@@ -424,7 +424,7 @@ body {
   width: 100%;
   line-height: 5rem; }
 
-.navigation__link {
+.navigation__link:link, .navigation__link:visited {
   text-decoration: none;
   color: #fff;
   font-size: 2.6rem;
