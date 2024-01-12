@@ -512,6 +512,12 @@ body {
     bottom: -4630px;
     left: 40%; }
 
+.header__logo {
+  height: 7.5rem;
+  position: absolute;
+  top: 1.2rem;
+  left: 3rem; }
+
 .header__title {
   margin-right: 3rem;
   text-transform: uppercase;
