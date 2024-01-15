@@ -20,22 +20,24 @@
 
 */
 
+// 16px = 1em
+
 @mixin respond-to($size) {
   @if $size == phone {
-    @media (max-width: 600px) {
+    @media (max-width: 37.5em) {
       @content;
     }
   } @else if $size == tablet {
-    @media (max-width: 900px) {
+    @media (max-width: 56.25em) {
       @content;
     }
   }
   @if $size == tablet-land {
-    @media (max-width: 1200px) {
+    @media (max-width: 75em) {
       @content;
     }
   } @else if $size == bigger-screens {
-    @media (max-width: 1800px) {
+    @media (max-width: 112.5em) {
       @content;
     }
   }
