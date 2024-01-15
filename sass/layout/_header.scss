@@ -56,7 +56,7 @@
       left: 47%;
       transform: translateX(-19%);
     }
-    @include respond-to(phone) {
+    @include respond-to(tablet) {
       &--darkblob,
       &--blueblob {
         height: 200px;
@@ -64,7 +64,7 @@
         top: 32%;
       }
     }
-    @include respond-to(phone) {
+    @include respond-to(tablet) {
       &--simcard {
         height: 200px;
         left: 20%;

@@ -1,12 +1,11 @@
 .row {
   max-width: $grid-width;
   margin: 0 auto;
-
   background-color: #777;
 
   &:not(:last-child) {
     margin-bottom: $vertical-gutter;
-    @include respond-to(tablet) {
+    @include respond-to(phone) {
       margin-bottom: $vertical-gutter-small;
     }
   }
@@ -17,12 +16,19 @@
     float: left;
     &:not(:last-child) {
       margin-right: $horizontal-gutter;
+      @include respond-to(phone) {
+        margin-right: 0;
+        margin-bottom: $vertical-gutter-small;
+      }
     }
-    @include respond-to(tablet) {
-      margin-right: 0;
-      margin-bottom: $vertical-gutter-small;
+    @include respond-to(phone) {
+      width: 100% !important;
     }
   }
+  @include respond-to(phone) {
+    width: 50rem;
+  }
+
   .col-1-of-2 {
     width: calc((100% - #{$horizontal-gutter}) / 2);
   }

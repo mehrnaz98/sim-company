@@ -356,12 +356,14 @@ body {
         color: #fff;
         background-color: rgba(0, 0, 0, 0.75);
         transform: rotate(0) skew(0); }
-  @media (max-width: 56.25em) {
-    .about__card {
-      height: 30rem; }
-      .about__card--title {
-        transform: skewX(1deg);
-        font-size: 1.8rem; } }
+  @media (max-width: 37.55em) {
+    .about {
+      margin: 5rem 2rem; }
+      .about__card {
+        height: 30rem; }
+        .about__card--title {
+          transform: skewX(1deg);
+          font-size: 1.8rem; } }
 
 .specification-card {
   background-color: #fff;
@@ -582,12 +584,12 @@ body {
     top: 25%;
     left: 47%;
     transform: translateX(-19%); }
-  @media (max-width: 37.55em) {
+  @media (max-width: 56.25em) {
     .header__images--darkblob, .header__images--blueblob {
       height: 200px;
       left: 25%;
       top: 32%; } }
-  @media (max-width: 37.55em) {
+  @media (max-width: 56.25em) {
     .header__images--simcard {
       height: 200px;
       left: 20%;
@@ -599,7 +601,7 @@ body {
   background-color: #777; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
-    @media (max-width: 56.25em) {
+    @media (max-width: 37.55em) {
       .row:not(:last-child) {
         margin-bottom: 4rem; } }
   .row .row::after {
@@ -610,10 +612,16 @@ body {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
-    @media (max-width: 56.25em) {
+      @media (max-width: 37.55em) {
+        .row [class^="col-"]:not(:last-child) {
+          margin-right: 0;
+          margin-bottom: 4rem; } }
+    @media (max-width: 37.55em) {
       .row [class^="col-"] {
-        margin-right: 0;
-        margin-bottom: 4rem; } }
+        width: 100% !important; } }
+  @media (max-width: 37.55em) {
+    .row {
+      width: 50rem; } }
   .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2); }
   .row .col-1-of-3 {
