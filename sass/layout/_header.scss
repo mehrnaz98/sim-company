@@ -56,5 +56,20 @@
       left: 47%;
       transform: translateX(-19%);
     }
+    @include respond-to(phone) {
+      &--darkblob,
+      &--blueblob {
+        height: 200px;
+        left: 25%;
+        top: 32%;
+      }
+    }
+    @include respond-to(phone) {
+      &--simcard {
+        height: 200px;
+        left: 20%;
+        top: 32%;
+      }
+    }
   }
 }

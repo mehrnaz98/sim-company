@@ -43,4 +43,14 @@
       }
     }
   }
+  @include respond-to(tablet) {
+    &__card {
+      height: 30rem;
+
+      &--title {
+        transform: skewX(1deg);
+        font-size: 1.8rem;
+      }
+    }
+  }
 }

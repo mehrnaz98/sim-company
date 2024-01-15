@@ -6,6 +6,9 @@
 
   &:not(:last-child) {
     margin-bottom: $vertical-gutter;
+    @include respond-to(tablet) {
+      margin-bottom: $vertical-gutter-small;
+    }
   }
 
   @include clearfix;
@@ -14,6 +17,10 @@
     float: left;
     &:not(:last-child) {
       margin-right: $horizontal-gutter;
+    }
+    @include respond-to(tablet) {
+      margin-right: 0;
+      margin-bottom: $vertical-gutter-small;
     }
   }
   .col-1-of-2 {

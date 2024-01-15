@@ -7,9 +7,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.section-about {
+  @include respond-to(phone) {
+    display: block;
+  }
 }
 
 .section-specification-cards {
