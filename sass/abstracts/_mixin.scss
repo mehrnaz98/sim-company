@@ -22,11 +22,20 @@
 
 @mixin respond-to($size) {
   @if $size == phone {
-    @media (max-width: 1700px) {
+    @media (max-width: 600px) {
       @content;
     }
   } @else if $size == tablet {
-    @media (max-width: 600px) {
+    @media (max-width: 900px) {
+      @content;
+    }
+  }
+  @if $size == tablet-land {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  } @else if $size == bigger-screens {
+    @media (max-width: 1800px) {
       @content;
     }
   }
