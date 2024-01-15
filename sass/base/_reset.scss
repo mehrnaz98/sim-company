@@ -8,7 +8,16 @@ html {
   font-size: 62.5%; /*...1rem=10px...*/
   box-sizing: inherit;
 
-  @include phone {
+  @include respond-to(tablet) {
+    font-size: 50%;
+  }
+
+  @include respond-to(tablet-land) {
+    font-size: 56.25%; // 1rem = 9px 12/16 = 75%
+  }
+
+  @include respond-to(bigger-screens) {
+    font-size: 75%; // 1rem = 12px 12/16 = 75%
   }
 }
 
