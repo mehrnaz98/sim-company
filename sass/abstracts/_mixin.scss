@@ -20,8 +20,14 @@
 
 */
 
-@mixin phone {
-  @media (max-width: 600px) {
-    @content;
+@mixin respond-to($size) {
+  @if $size == phone {
+    @media (max-width: 1700px) {
+      @content;
+    }
+  } @else if $size == tablet {
+    @media (max-width: 600px) {
+      @content;
+    }
   }
 }
