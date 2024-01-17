@@ -30,7 +30,11 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: "Raleway"; }
+  font-family: "Raleway";
+  padding: 3rem; }
+  @media (max-width: 37.55em) {
+    body {
+      padding: 1rem; } }
 
 @keyframes fadeInLeft {
   0% {
@@ -321,6 +325,9 @@ body {
   display: flex;
   justify-content: center;
   margin: 10rem; }
+  @media (max-width: 37.55em) {
+    .about {
+      margin: 3rem; } }
   .about__card {
     flex: 1;
     height: 50rem;
@@ -357,7 +364,7 @@ body {
         transform: rotate(0) skew(0); }
   @media (max-width: 56.25em) {
     .about {
-      margin: 5rem 2rem; }
+      margin: 7rem; }
       .about__card {
         transform: skewX(10deg);
         height: 30rem; }
@@ -566,6 +573,9 @@ body {
     animation-name: fadeInRight;
     animation-duration: 1s;
     animation-timing-function: ease-in-out; }
+  @media (max-width: 37.55em) {
+    .header__title {
+      font-size: 1.9rem; } }
 
 .header__images {
   position: relative; }
@@ -621,7 +631,7 @@ body {
   @media (max-width: 56.25em) {
     .row {
       width: 50rem; } }
-  @media (max-width: 56.25em) {
+  @media (max-width: 37.55em) {
     .row {
       width: 35rem; } }
   .row .col-1-of-2 {
@@ -639,7 +649,6 @@ body {
 
 /* pages */
 body {
-  padding: 3rem;
   color: #777; }
 
 .header {

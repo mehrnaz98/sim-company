@@ -32,6 +32,9 @@
       animation-duration: 1s;
       animation-timing-function: ease-in-out;
     }
+    @include respond-to(phone) {
+      font-size: 1.9rem;
+    }
   }
 
   &__images {

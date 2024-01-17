@@ -29,7 +29,7 @@
     width: 50rem;
   }
 
-  @include respond-to(tablet) {
+  @include respond-to(phone) {
     width: 35rem;
   }
 
