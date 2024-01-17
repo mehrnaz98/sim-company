@@ -17,12 +17,11 @@
 
 html {
   font-size: 62.5%;
-  /*...1rem=10px=62.5%...*/
-  box-sizing: inherit; }
-  @media (max-width: 56.25em) {
+  /*...1rem=10px=62.5%...*/ }
+  @media (max-width: 75em) {
     html {
       font-size: 56.25%; } }
-  @media (max-width: 37.55em) {
+  @media (max-width: 56.25em) {
     html {
       font-size: 50%; } }
   @media (min-width: 112.5em) {
@@ -356,13 +355,13 @@ body {
         color: #fff;
         background-color: rgba(0, 0, 0, 0.75);
         transform: rotate(0) skew(0); }
-  @media (max-width: 37.55em) {
+  @media (max-width: 56.25em) {
     .about {
       margin: 5rem 2rem; }
       .about__card {
+        transform: skewX(10deg);
         height: 30rem; }
         .about__card--title {
-          transform: skewX(1deg);
           font-size: 1.8rem; } }
 
 .specification-card {
@@ -601,7 +600,7 @@ body {
   background-color: #777; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
-    @media (max-width: 37.55em) {
+    @media (max-width: 56.25em) {
       .row:not(:last-child) {
         margin-bottom: 4rem; } }
   .row .row::after {
@@ -612,14 +611,14 @@ body {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
-      @media (max-width: 37.55em) {
+      @media (max-width: 56.25em) {
         .row [class^="col-"]:not(:last-child) {
           margin-right: 0;
           margin-bottom: 4rem; } }
-    @media (max-width: 37.55em) {
+    @media (max-width: 56.25em) {
       .row [class^="col-"] {
         width: 100% !important; } }
-  @media (max-width: 37.55em) {
+  @media (max-width: 56.25em) {
     .row {
       width: 50rem; } }
   .row .col-1-of-2 {

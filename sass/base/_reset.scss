@@ -6,13 +6,12 @@
 
 html {
   font-size: 62.5%; /*...1rem=10px=62.5%...*/
-  box-sizing: inherit;
 
-  @include respond-to(tablet) {
+  @include respond-to(tablet-land) {
     font-size: 56.25%; // 1rem = 9px 9/16 = 56%
   }
 
-  @include respond-to(phone) {
+  @include respond-to(tablet) {
     font-size: 50%; // 1rem = 9px 8/16 = 50%
   }
 
