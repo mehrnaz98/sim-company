@@ -621,6 +621,9 @@ body {
   @media (max-width: 56.25em) {
     .row {
       width: 50rem; } }
+  @media (max-width: 56.25em) {
+    .row {
+      width: 35rem; } }
   .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2); }
   .row .col-1-of-3 {
@@ -643,7 +646,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center; }
-  @media (max-width: 37.55em) {
+  @media (max-width: 56.25em) {
     .header {
       display: block; } }
 
@@ -655,6 +658,11 @@ body {
   clip-path: polygon(18% 0px, 100% 0, 100% 86%, 0px 86%, 0 26%);
   height: 400px;
   width: 100%; }
+  @media (max-width: 56.25em) {
+    .section-specification-cards {
+      height: 1200px;
+      width: 111%;
+      clip-path: polygon(36% 0px, 100% 0, 100% 86%, 0px 86%, 0 4%); } }
 
 .section-plan-cards {
   margin-top: -18rem; }

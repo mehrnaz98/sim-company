@@ -7,7 +7,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  @include respond-to(phone) {
+  @include respond-to(tablet) {
     display: block;
   }
 }
@@ -25,6 +25,11 @@ body {
   clip-path: polygon(18% 0px, 100% 0, 100% 86%, 0px 86%, 0 26%);
   height: 400px;
   width: 100%;
+  @include respond-to(tablet) {
+    height: 1200px;
+    width: 111%;
+    clip-path: polygon(36% 0px, 100% 0, 100% 86%, 0px 86%, 0 4%);
+  }
 }
 
 .section-plan-cards {

@@ -7,6 +7,10 @@
   clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 21%, 29% 0%);
   transition: transform 200ms ease-in-out;
   opacity: 80%;
+
+  @include respond-to(tablet) {
+  }
+
   &:hover {
     transform: scale(1.05);
     background-color: black;

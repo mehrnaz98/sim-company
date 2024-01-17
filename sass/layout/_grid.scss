@@ -29,6 +29,10 @@
     width: 50rem;
   }
 
+  @include respond-to(tablet) {
+    width: 35rem;
+  }
+
   .col-1-of-2 {
     width: calc((100% - #{$horizontal-gutter}) / 2);
   }
