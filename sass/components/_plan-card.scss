@@ -122,9 +122,9 @@
     padding-left: 50px;
   }
 
-  @include respond-to(tablet) {
+  // @include respond-to(tablet) {
+  @media only screen and (max-width: 56.25em), only screen and (hover: none) {
     height: auto;
-
     &__view {
       height: auto;
       font-size: 2rem;
@@ -133,10 +133,10 @@
 
       &--back {
         transform: rotateY(0);
-        clip-path: polygon(50% 0, 70% 8%, 100% 8%, 100% 100%, 0 100%, 0 0);
+        clip-path: polygon(33% 8%, 65% 0, 100% 0, 100% 100%, 0 100%, 0 8%);
         margin-top: -3rem;
-        border-radius: 0;
-        box-shadow: 0px 1.5px 3px 2px rgba($black-color, 0.32);
+        border-radius: 3px;
+        box-shadow: 0px 1.5px 3px 2px rgba($black-color, 0.92);
       }
     }
 
