@@ -320,11 +320,9 @@ body {
     font-weight: 500;
     padding-right: 50px;
     padding-left: 50px; }
-  @media only screen and (max-width: 37.55em) {
+  @media only screen and (max-width: 56.25em) {
     .plan-card {
-      height: auto;
-      /* front style */
-      /* back styles */ }
+      height: auto; }
       .plan-card__view {
         height: auto;
         font-size: 2rem;
@@ -334,23 +332,16 @@ body {
           transform: rotateY(0); }
       .plan-card:hover .plan-card__view--front {
         transform: rotateY(0); }
-      .plan-card__details {
-        padding-top: 1rem;
-        list-style: none;
-        line-height: 2.9rem;
-        font-weight: 500; }
       .plan-card--deals {
         font-size: 1.4rem;
         color: #fff;
         padding: 2rem;
         line-height: 3.3rem;
         position: relative;
-        left: 50%;
+        left: 0%;
         top: 0;
         font-weight: 500;
-        /*padding-right: 50px;
-      padding-left: 50px;*/
-        transform: translate(0, -50%); } }
+        transform: translate(0, 8%); } }
 
 .about {
   display: flex;
