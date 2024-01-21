@@ -70,10 +70,18 @@
   &__link:hover &__back:after {
     transform: rotate(6deg) translate(100px, -18px);
   }
+
+  @include respond-to(tablet) {
+    height: 72px;
+  }
 }
 
 .planCardButton {
   display: block;
   margin: 0 auto;
   margin-top: 50px;
+
+  @include respond-to(tablet) {
+    margin-top: 15px;
+  }
 }

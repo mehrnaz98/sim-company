@@ -182,11 +182,17 @@ body {
     background-color: #1c2b97; }
   .btn-flip__link:hover .btn-flip__back:after {
     transform: rotate(6deg) translate(100px, -18px); }
+  @media only screen and (max-width: 56.25em) {
+    .btn-flip {
+      height: 72px; } }
 
 .planCardButton {
   display: block;
   margin: 0 auto;
   margin-top: 50px; }
+  @media only screen and (max-width: 56.25em) {
+    .planCardButton {
+      margin-top: 15px; } }
 
 .form-container {
   width: 50%;
@@ -329,18 +335,21 @@ body {
         position: relative;
         width: 100%; }
         .plan-card__view--back {
-          transform: rotateY(0); }
+          transform: rotateY(0);
+          clip-path: polygon(50% 0, 70% 8%, 100% 8%, 100% 100%, 0 100%, 0 0);
+          margin-top: -3rem;
+          border-radius: 0;
+          box-shadow: 0px 1.5px 3px 2px rgba(0, 0, 0, 0.32); }
       .plan-card:hover .plan-card__view--front {
         transform: rotateY(0); }
+      .plan-card__details {
+        padding-bottom: 5rem; }
       .plan-card--deals {
-        font-size: 1.4rem;
-        color: #fff;
+        font-size: 1.6rem;
         padding: 2rem;
-        line-height: 3.3rem;
         position: relative;
         left: 0%;
         top: 0;
-        font-weight: 500;
         transform: translate(0, 8%); } }
 
 .about {
