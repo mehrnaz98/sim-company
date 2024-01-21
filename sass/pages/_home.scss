@@ -44,6 +44,9 @@ body {
   &__bkg-video {
     height: 100%;
     width: 100%;
+    @include respond-to(tablet) {
+      display: none;
+    }
   }
 }
 
@@ -65,6 +68,17 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 80%;
+
+  @include respond-to(tablet) {
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: 127px;
+    left: 0;
+    transform: translate(0);
+    opacity: 100%;
+    clip-path: polygon(0 42%, 100% 42%, 100% 98%, 0 98%);
+  }
 }
 
 .footer {

@@ -231,6 +231,9 @@ body {
       top: 0;
       left: 0;
       transition: all 200ms ease-in-out; }
+  @media only screen and (max-width: 56.25em) {
+    .form-container {
+      width: 80%; } }
 
 .feedback-card {
   text-align: left;
@@ -715,6 +718,9 @@ body {
   .section-form__bkg-video {
     height: 100%;
     width: 100%; }
+    @media only screen and (max-width: 56.25em) {
+      .section-form__bkg-video {
+        display: none; } }
 
 .form {
   background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../../starter/img/network-connection.jpg);
@@ -728,6 +734,16 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 80%; }
+  @media only screen and (max-width: 56.25em) {
+    .form {
+      height: auto;
+      width: 100%;
+      position: relative;
+      top: 127px;
+      left: 0;
+      transform: translate(0);
+      opacity: 100%;
+      clip-path: polygon(0 42%, 100% 42%, 100% 98%, 0 98%); } }
 
 .footer {
   padding: 80px 100px 450px 0px;
