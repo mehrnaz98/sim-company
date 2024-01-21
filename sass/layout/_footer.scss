@@ -9,6 +9,10 @@
     list-style: none;
     font-size: 2rem;
     padding-bottom: 3rem;
+    @include respond-to(tablet) {
+      font-size: 1rem;
+      padding-left: 1rem;
+    }
 
     li a {
       color: $white-color;
@@ -20,12 +24,18 @@
     &--title {
       padding-bottom: 2rem;
       text-align: left;
+      @include respond-to(tablet) {
+        padding-left: 5rem;
+      }
     }
     &--paragraph {
       line-height: 3rem;
       text-align: left;
       text-align: justify;
       padding-right: 5rem;
+      @include respond-to(tablet) {
+        padding-left: 5rem;
+      }
     }
   }
 
@@ -34,6 +44,13 @@
       text-transform: capitalize;
       padding-bottom: 3rem;
       text-align: center;
+    }
+    &--map {
+      @include respond-to(tablet) {
+        position: relative;
+        left: 6px;
+        width: 200px;
+      }
     }
   }
 

@@ -557,6 +557,10 @@ body {
     list-style: none;
     font-size: 2rem;
     padding-bottom: 3rem; }
+    @media only screen and (max-width: 56.25em) {
+      .footer__nav {
+        font-size: 1rem;
+        padding-left: 1rem; } }
     .footer__nav li a {
       color: #fff;
       padding: 2rem; }
@@ -565,15 +569,26 @@ body {
     .footer__policy--title {
       padding-bottom: 2rem;
       text-align: left; }
+      @media only screen and (max-width: 56.25em) {
+        .footer__policy--title {
+          padding-left: 5rem; } }
     .footer__policy--paragraph {
       line-height: 3rem;
       text-align: left;
       text-align: justify;
       padding-right: 5rem; }
+      @media only screen and (max-width: 56.25em) {
+        .footer__policy--paragraph {
+          padding-left: 5rem; } }
   .footer__address--title {
     text-transform: capitalize;
     padding-bottom: 3rem;
     text-align: center; }
+  @media only screen and (max-width: 56.25em) {
+    .footer__address--map {
+      position: relative;
+      left: 6px;
+      width: 200px; } }
   .footer__copyright {
     position: absolute;
     bottom: -4630px;
@@ -748,4 +763,9 @@ body {
 .footer {
   padding: 80px 100px 450px 0px;
   background-color: #3d3d3d;
-  color: white; }
+  color: white;
+  margin-top: 15rem; }
+  @media only screen and (max-width: 56.25em) {
+    .footer {
+      margin-top: 37rem;
+      padding: 80px 100px 773px 0px; } }

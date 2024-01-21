@@ -85,4 +85,9 @@ body {
   padding: 80px 100px 450px 0px;
   background-color: $gray-color-dark;
   color: white;
+  margin-top: 15rem;
+  @include respond-to(tablet) {
+    margin-top: 37rem;
+    padding: 80px 100px 773px 0px;
+  }
 }
