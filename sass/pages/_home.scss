@@ -26,7 +26,7 @@ body {
   width: 100%;
   @include respond-to(tablet) {
     height: 1200px;
-    width: 111%;
+    width: 100%;
     clip-path: polygon(36% 0px, 100% 0, 100% 86%, 0px 86%, 0 4%);
   }
 }
@@ -88,6 +88,6 @@ body {
   margin-top: 15rem;
   @include respond-to(tablet) {
     margin-top: 37rem;
-    padding: 80px 100px 773px 0px;
+    padding: 80px 100px 802px 0px;
   }
 }

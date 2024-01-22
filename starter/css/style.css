@@ -18,10 +18,10 @@
 html {
   font-size: 62.5%;
   /*...1rem=10px=62.5%...*/ }
-  @media only screen and (max-width: 75em) {
+  @media only screen and (max-width: 56.25em) {
     html {
       font-size: 56.25%; } }
-  @media only screen and (max-width: 56.25em) {
+  @media only screen and (max-width: 37.55em) {
     html {
       font-size: 50%; } }
   @media only screen and (min-width: 112.5em) {
@@ -211,6 +211,9 @@ body {
       padding: 1rem 1rem 3rem 1rem;
       border: none;
       background: transparent; }
+      @media only screen and (max-width: 56.25em) {
+        .form-container__input--text {
+          background-color: rgba(255, 255, 255, 0.125); } }
       .form-container__input--text ~ span {
         display: block;
         width: 0;
@@ -584,7 +587,20 @@ body {
     text-transform: capitalize;
     padding-bottom: 3rem;
     text-align: center; }
+    @media only screen and (max-width: 56.25em) {
+      .footer__address--title {
+        position: relative;
+        left: 54px; } }
+    @media only screen and (max-width: 56.25em) {
+      .footer__address--title {
+        position: relative;
+        left: 7px; } }
   @media only screen and (max-width: 56.25em) {
+    .footer__address--map {
+      position: relative;
+      left: 48px;
+      width: 400px; } }
+  @media only screen and (max-width: 37.55em) {
     .footer__address--map {
       position: relative;
       left: 6px;
@@ -593,6 +609,26 @@ body {
     position: absolute;
     bottom: -4630px;
     left: 40%; }
+    @media only screen and (max-width: 56.25em) {
+      .footer__copyright {
+        bottom: -792rem;
+        font-size: 10px;
+        left: 35%; } }
+    @media only screen and (max-width: 37.55em) {
+      .footer__copyright {
+        bottom: -857rem;
+        font-size: 10px;
+        left: 10%; } }
+  @media only screen and (max-width: 56.25em) {
+    .footer {
+      padding: 5rem 1rem; }
+      .footer__nav {
+        font-size: 1.5rem; }
+      .footer__policy {
+        border-right: 0;
+        border-bottom: 1px solid #fff; }
+        .footer__policy--paragraph {
+          padding-bottom: 2rem; } }
 
 .header__logo {
   height: 7.5rem;
@@ -719,7 +755,7 @@ body {
   @media only screen and (max-width: 56.25em) {
     .section-specification-cards {
       height: 1200px;
-      width: 111%;
+      width: 100%;
       clip-path: polygon(36% 0px, 100% 0, 100% 86%, 0px 86%, 0 4%); } }
 
 .section-plan-cards {
@@ -768,4 +804,4 @@ body {
   @media only screen and (max-width: 56.25em) {
     .footer {
       margin-top: 37rem;
-      padding: 80px 100px 773px 0px; } }
+      padding: 80px 100px 802px 0px; } }
