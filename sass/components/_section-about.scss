@@ -12,6 +12,7 @@
     transform: skewX(15deg);
     position: relative;
     transition: all 1000ms ease-in-out;
+
     &--img {
       height: 100%;
       width: 100%;
@@ -36,6 +37,17 @@
     }
     &:hover {
       flex-grow: 2;
+      .about__card--img {
+        filter: grayscale(0);
+      }
+      .about__card--title {
+        color: $white-color;
+        background-color: rgba($black-color, 0.75);
+        transform: rotate(0) skew(0);
+      }
+    }
+
+    @media only screen and (max-width: 56.25em), only screen and (hover: none) {
       .about__card--img {
         filter: grayscale(0);
       }
