@@ -2,6 +2,9 @@
 
 Check out this SIM card selling website, designed with Sass for a clean and straightforward user experience.
 
+## Live Demo
+
+You can view the live version of this project here: [View on Netlify](https://transcendent-donut-b93205.netlify.app/)
 
 ## Project Acknowledgment
 
